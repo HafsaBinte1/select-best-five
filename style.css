@@ -33,3 +33,8 @@ header{
 .main-img{
    height: 60%;
 }
+footer{
+    color: beige;
+    background-color: black;
+    height: 200px;
+}

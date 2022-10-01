@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Playeres</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="head">Select Your Best Five</h1>
+        <h5 id="mini-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo quaerat ad asperiores adipisci voluptatum provident, praesentium nemo <br>
+            neque repellendus aliquam labore numquam natus deserunt atque, reprehenderit debitis, tempora similique nam!</h5>
+    </header>
+    <main>
+        <section class="container mt-5">
+           <div class="row">
+              <div class="col-lg-9">
+                <div class="row row-cols-lg-3">
+                    <div class="card me-4 mb-4" style="width: 15rem;">
+                        <img src="messi.jpg" class="card-img-top main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center" >Messi</h5>
+                        </div>
+                        <button  class="btn btn-primary select">Select</button>
+                      </div>
+               
+                    <div class="card me-4 mb-4" style="width: 15rem;">
+                        <img src="ronaldo.jpeg" class="card-img-top img-fluid main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Ronaldo</h5>
+                        </div>
+                        <button class="btn btn-primary select">Select</button>
+                      </div>
+               
+                    <div class="card me-4 mb-4" style="width: 15rem;">
+                        <img src="footballer-cut-out-white-19409785.jpg" class="card-img-top main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Khachok</h5>
+                        </div>
+                        <button class="btn btn-primary select">Select</button>
+                      </div>
+                    <div class="card me-4" style="width: 15rem;">
+                        <img src="i.jpg" class="card-img-top main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Yash</h5>
+                        </div>
+                        <button class="btn btn-primary select">Select</button>
+                      </div>
+                    <div class="card me-4 " style="width: 15rem;">
+                        <img src="b565a6a1f6ad02cb0e40ab6e3c88663d.jpg" class="card-img-top main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Tetto</h5>
+                        </div>
+                        <button class="btn btn-primary select">Select</button>
+                      </div>
+                    <div class="card me-4" style="width: 15rem;">
+                        <img src="neimar.jpg" class="card-img-top main-img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center">Neimar</h5>
+                        </div>
+                        <button class="btn btn-primary select">Select</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="select-v p-5 mb-5">
+                   <h4 class="text-center">Select V</h4>
+                   <ol id ="text-player"></ol>
+                </div>
+                <div  class="select-v text-center ">
+                    <h4 class="text-center 
+                    pt-2">Budget</h4>
+                    <p>Per player  <input id="player-input" type="text" class="w-50"></p>
+                    <button  class="btn btn-primary w-100" id="calculate">Calculate</button>
+                    <h5 class="my-4">Player Expenses $<span id="expense">00</span></h5>
+                    <p>Manager  <input id="manager-input"  type="text" class="w-50"></p>
+                    <p>Coach    <input id="coach-input" type="text" class="w-50"></p>
+                    <button class="btn btn-primary w-100" id="calculate-total">Calculate Total</button>
+                    <h5 class="mt-3">Total $<span id="total" >00</span></h5>
+                </div>
+            </div>
+           </div>
+        </section>
+    </main>
+  
+    <script src="js/common.js"></script>
+    <script src="js/Select.js"></script>
+    <script src="js/Budget.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
